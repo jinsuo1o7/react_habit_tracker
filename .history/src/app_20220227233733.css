@@ -1,0 +1,29 @@
+button {
+    outline: none;
+    border: 0;
+    cursor: pointer;
+}
+1
+.habit {
+    font-size: 2.5rem;
+}
+
+.habit-button {
+    font-size: 2.5rem;
+    margin: 0 0.1em;
+    background-color: transparent;
+}
+
+.habit-button:hover {
+    opacity: 0.6;
+}
+
+.habit-increase,
+.habit-decrease {
+    color: goldenrod;
+}
+
+.habit-delete {
+    font-size: 2rem;
+    color: darkblue;
+}
