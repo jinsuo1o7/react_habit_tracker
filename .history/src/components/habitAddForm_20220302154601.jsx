@@ -11,7 +11,7 @@ const HabitAddForm = memo((props) => {
         formRef.current.reset();
     };
     return (
-        <form ref={formRef} className="add-form" onSubmit={handleAdd}>
+        <form ref={formRef} className="add-form" onSubmit={onAdd}>
             <input
                 ref={inputRef}
                 type="text"
